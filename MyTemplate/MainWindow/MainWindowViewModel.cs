@@ -40,9 +40,7 @@ namespace MyTemplate.ViewModels {
 		public string TitleName
 		#region
 		{
-			get {
-				return m_titleName;
-			}
+			get => m_titleName;
 			set {
 				if( m_titleName != value ) {
 					m_titleName = value;
